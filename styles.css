@@ -1,0 +1,74 @@
+#wrapper {
+  width: 50%;
+  border: 10px solid #000000;
+  margin: auto;
+  background-color: #000000;
+  min-height: 500px;
+  position: relative;
+  align-items: center;
+  transition: all 2s linear;
+}
+
+#player {
+  width: 10%;
+  min-height: 30px;
+  background-color: blueviolet;
+  position: absolute;
+  top: 480px;
+  left: 40%;
+  /* transition: all 1s linear; */
+}
+
+.enemy {
+  width: 10%;
+  min-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#enemy-one {
+  background-color: rgb(80, 43, 226);
+  transition: all 1.5s linear;
+}
+
+#enemy-two {
+  background-color: rgb(43, 226, 86);
+  transition: all 2s linear;
+}
+
+#enemy-three {
+  background-color: rgb(226, 208, 43);
+  transition: all 2.5s linear;
+}
+
+#enemy-four {
+  background-color: rgb(226, 43, 43);
+  transition: all 3s linear;
+}
+
+#enemy-five {
+  background-color: #2b90e2;
+  transition: all 3.5s linear;
+}
+
+#enemy-six {
+  background-color: burlywood;
+  transition: all 4s linear;
+}
+
+.bullet1,
+.bullet2,
+.bullet3,
+.bullet4,
+.bullet5,
+.bullet6 {
+  width: 10px;
+  min-height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 35%;
+  background-color: #f0e68c;
+  transition: all 4s linear;
+}
